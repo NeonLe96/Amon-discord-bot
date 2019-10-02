@@ -7,7 +7,7 @@ const {Builder, By, Key, until} = require('selenium-webdriver');
 const {google} = require('googleapis');
 var youtube = google.youtube({
   version: 'v3',
-  auth: "AIzaSyDi3DLiDo3taN871O2HmWJ1G_LChmni3QQ"
+  auth: ""
 });
 
 // Number emote to real number
@@ -131,7 +131,7 @@ async function selinium(string) {
     array.push(translated);
     await driver.wait(until.elementLocated(By.xpath("//q")),500);
     dummy = await driver.findElement(By.xpath("//q")).getText();
-    await driver.wait(until.elementLocated(By.xpath("//table[@class='gt-baf-table']/tbody/tr[@class='gt-baf-entry']")),500,'gay');
+    await driver.wait(until.elementLocated(By.xpath("//table[@class='gt-baf-table']/tbody/tr[@class='gt-baf-entry']")),500);
     await driver.findElements(By.className('gt-baf-cell gt-baf-word-clickable')).then(async function(value){
       for (i = 0; i < value.length; i++){
         test=await value[i].getText();
@@ -379,4 +379,4 @@ client.on('guildMemberAdd', member => {
 // GL HF
 
 
-client.login('NTg5MDU3ODczMzg1MDk1MTc4.XQOJqQ.NVI6_MMx5qmE-w1Q3sH1eHY8XsU');
+client.login('');
