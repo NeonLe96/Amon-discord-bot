@@ -51,7 +51,7 @@ const {Builder, By, Key, until} = require('selenium-webdriver');
 const {google} = require('googleapis');
 var youtube = google.youtube({
    version: 'v3',
-   auth: "AIzaSyDi3DLiDo3taN871O2HmWJ1G_LChmni3QQ"
+   auth: ""
 });
 
 
