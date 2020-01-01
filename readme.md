@@ -13,6 +13,4 @@ ytdl-core
 
 discord.js
 
-## Authors
 
-* **Neon** - *Initial work* 
