@@ -4,7 +4,7 @@ A helper bot for personal Discord server. Server management/ memes/ YT music.
 
 
 ### Prerequisites
-
+```
 Selenium-firefox
 
 Docker
@@ -12,5 +12,5 @@ Docker
 ytdl-core
 
 discord.js
-
+```
 
